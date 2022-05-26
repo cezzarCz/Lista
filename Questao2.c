@@ -269,6 +269,6 @@ int main() {
   
   printf ("DADOS DO VEÍCULO\n");
   printf ("Placa:              Modelo:                Cor:\n");
-  printf ("%s                  %s                 %s\n");
+  printf ("%s                  %s                 %s\n", carro.placa, carro.modelo, carro.cor);
   return 0;
 }
